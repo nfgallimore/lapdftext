@@ -1,0 +1,11 @@
+#summary System Overview
+
+= Introduction =
+
+The Portable Document Format (PDF) is the almost universally used file
+format for online scientific publications. It is also difficult to read and handle computationally, presenting challenges for developers of biomedical text mining or biocuration informatics systems that use the published literature as an information source. To facilitate the effective use of scientific literature in such systems we introduce Layout-Aware PDF Text Extraction (LA-PDFText). 
+
+
+= Details =
+
+LA-PDFText (Layout Aware PDF to Text Extractor) is a free software meant for use by researchers in the biomedical informatics and biomedical NLP communities. This system allows the user to extract text from PDF files of scientific articles in a layout and section aware manner.  
