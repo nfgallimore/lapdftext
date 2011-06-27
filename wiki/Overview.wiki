@@ -11,6 +11,11 @@ format for online scientific publications. It is also difficult to read and hand
 LA-PDFText (Layout Aware PDF to Text Extractor) is a free software meant for use by researchers in the biomedical informatics and biomedical NLP communities. This system allows the user to extract text from PDF files of scientific articles in a layout and section aware manner.  
 
 
+= How Does it work =
+
+[[File:Wikipedesketch1.png|thumb|center|alt=A cartoon centipede reads books and types on a laptop.|The Wikipede edits ''[[Myriapoda]]''.]]
+
+
 = Installation Instructions =
 
 The current version of LA-PDFText requires Java 1.6 in order to run and supports the following operating systems: 
