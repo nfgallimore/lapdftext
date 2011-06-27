@@ -13,7 +13,7 @@ LA-PDFText (Layout Aware PDF to Text Extractor) is a free software meant for use
 
 = How Does it work =
 
-
+[[ Image:Image.jpg | frame type | position | sizepx | caption ]]
 
 
 = Installation Instructions =
