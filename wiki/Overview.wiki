@@ -19,12 +19,9 @@ extract text from the PDF files.
 The current version of LA=PDFText is a baseline system that extracts text using a three-stage process: (1) identification of chunks of contiguous text (2) classification of these chunks into rhetorical categories (3) extraction of the text from section-wise grouped text chunks.
 
 
-
-=
-
 = Installation Instructions =
 
 The current version of LA-PDFText requires Java 1.6 in order to run and supports the following operating systems: 
-  # MacOSX Snow Leapoard 10.6.7  
+  # MacOSX Snow Leapoard 10.6.7  []
   # Windows XP
   # Linux
