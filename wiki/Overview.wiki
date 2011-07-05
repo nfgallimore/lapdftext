@@ -22,6 +22,8 @@ The current version of LA=PDFText is a baseline system that extracts text using 
 = Installation Instructions =
 
 The current version of LA-PDFText requires Java 1.6 in order to run and supports the following operating systems: 
-  # MacOSX Snow Leapoard 10.6.7  [download http://code.google.com/p/lapdftext/downloads/detail?name=InstallLA-PDFText-1.0-Mac.zip&can=2&q=]
+  # MacOSX Snow Leapoard 10.6.7
   # Windows XP
   # Linux
+
+Choose the installer meant for your operating system download it. Mac and windows users can run their installers by simply double-clicking the installer icon while Linux users can run the installer usig the command {{{java -jar <installername>}}}. The installer will take you through the steps and will ask you where you want the LA-PDFText application to be installed. 
