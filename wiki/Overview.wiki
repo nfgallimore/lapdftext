@@ -11,10 +11,16 @@ format for online scientific publications. It is also difficult to read and hand
 LA-PDFText (Layout Aware PDF to Text Extractor) is a free software meant for use by researchers in the biomedical informatics and biomedical NLP communities. This system allows the user to extract text from PDF files of scientific articles in a layout and section aware manner.  
 
 
-= How Does it work =
+= How Does it work? =
+The figure below shows the steps that LA-PDFText goes through to 
+extract text from the PDF files. 
+[http://www.isi.edu/~cartic/sciknowmine/LA-PDFText/lapdftext.jpg]
 
-[[ Image:overview.png|left|LA-PDFText extraction process]]
+The current version of LA=PDFText is a baseline system that extracts text using a three-stage process: (1) identification of chunks of contiguous text (2) classification of these chunks into rhetorical categories (3) extraction of the text from section-wise grouped text chunks.
 
+
+
+=
 
 = Installation Instructions =
 
