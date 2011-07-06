@@ -28,6 +28,8 @@ Choose the installer meant for your operating system download it. Mac and window
 = Usage =
 
 Once installed you can run LA-PDFText in 2 modes: (1) as an application with a UI (2) as a command-line tool. The table below summarizes these capabilities across the three platforms.
-|| table || cells ||
- 
 
+||         || UI || cmdLine ||
+||MacOSX   ||    ||         ||
+||WindowsXP||    ||         ||
+||Linux    ||    ||         ||
