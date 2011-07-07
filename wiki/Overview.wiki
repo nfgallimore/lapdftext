@@ -20,3 +20,6 @@ Once installed you can run LA-PDFText in 2 modes: (1) as an application with a U
 ||MacOSX   ||yes || yes     ||
 ||WindowsXP||yes || no      ||
 ||Linux    ||yes || yes     ||
+
+
+== Command Line Usage == 
