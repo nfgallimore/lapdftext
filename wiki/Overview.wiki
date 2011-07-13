@@ -72,3 +72,70 @@ Arguments:
   * Argument 2: The directory path where the PDFs are located
   * Argument 3: The path of the rule file for Drools 
   * Argument 4: The directory path where output of blockify and sectionify will be placed
+
+
+===Writing rules for block classification ===
+
+
+Here is a snippet from a rule file included in the software distribution:
+
+{{{#created on: Jul 30, 2010
+package edu.isi.bmkeg.pdf.classification.rules
+
+#list any import classes here.
+
+import edu.isi.bmkeg.pdf.features.ChunkFeatures;
+import edu.isi.bmkeg.pdf.model.ChunkBlock;
+
+#declare any global variables here
+
+global ChunkBlock    chunk;
+
+
+rule "Title"
+	activation-group "blockClassification"
+	salience 4
+	when
+		    ChunkFeatures(pageNumber==1)
+		     ChunkFeatures(mostPopularFontSize==20)
+		  
+		    eval(chunk.getNumberOfLine()<=6)
+		    ChunkFeatures(allignedMiddle==true)
+		   
+	then 
+		chunk.setType(chunk.TYPE_TITLE);
+		
+end
+
+rule "Authors"
+	activation-group "blockClassification"
+	salience 4
+	when
+		    ChunkFeatures(pageNumber==1)
+		     ChunkFeatures(mostPopularFontSize==10)
+		   
+		    eval(chunk.getNumberOfLine()<=6)
+		    ChunkFeatures(allignedMiddle==true)
+		
+		    features:ChunkFeatures()
+		    eval(features.isMatchingRegularExpression("^(Summ|[Aa]bst|SUMM|ABST)")==false)
+	then 
+		chunk.setType(chunk.TYPE_AUTHORS);
+		
+end
+
+
+
+
+
+rule "Header"
+activation-group "blockClassification"
+salience 4
+	when
+		
+		 eval(chunk.getNumberOfLine()==1)
+		 ChunkFeatures(containingFirstLineOfPage==true)
+	then
+		 chunk.setType(chunk.TYPE_HEADER);
+end
+}}}
