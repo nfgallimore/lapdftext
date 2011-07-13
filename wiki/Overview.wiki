@@ -77,7 +77,7 @@ Arguments:
 ===Writing rules for block classification ===
 
 
-Here is a snippet from a rule file included in the software distribution:
+Below is a snippet from a rule file included in the software distribution. The rules are in DROOLS syntax. [http://en.wikipedia.org/wiki/Drools]
 
 {{{
 package edu.isi.bmkeg.pdf.classification.rules
@@ -132,4 +132,3 @@ end
 }}}
 
 From this example it is clear that LA-PDFText's code base contains a class that encapsulates features of chunk blocks detected in the block detection process. 
-
