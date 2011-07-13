@@ -30,39 +30,44 @@ Once installed you can run LA-PDFText in 2 modes: (1) as an application with a U
 
 
 ===Usage Guidelines===
-Blockifying PDF: 
+
+
+====Blockifying PDF: ====
 Use this option if you want to blockify the PDF and output the blocks XML.
 
-Command: {{{./cl_LA-PDFText blockify sampleData/plos/8_8 ~cartic/Desktop/screenshots/}}}
+Command: 
+{{{./cl_LA-PDFText blockify sampleData/plos/8_8 ~cartic/Desktop/screenshots/}}}
 
 
-Usage
+Arguments:
 Argument 1:blockify
 Argument 2: The directory path where the PDFs are located 
 Argument 3[Optional]: The directory path where output of blockify will be placed
 
 
 
-Blockifying PDF and reporting Features: 
+====Blockifying PDF and reporting Features: ====
 
 Use this option if you want to blockify the PDF and output the blocks XML and generate a report file that serves as a guide in crafting a rule file for the sectionify step.
 
-Command: {{{./cl_LA-PDFText blockStatistics sampleData/plos/8_8 ~cartic/Desktop/screenshots/}}}
+Command: 
+{{{./cl_LA-PDFText blockStatistics sampleData/plos/8_8 ~cartic/Desktop/screenshots/}}}
 
-Usage
+Arguments:
 Argument 1:blockStatistics
 Argument 2: The directory path where the PDFs are located 
 Argument 3[Optional]: The directory path where output of blockify and the feature reports will be placed
 
 
-Blockifying and sectionifying PDF: 
+====Blockifying and sectionifying PDF: ====
 
 Use this option if you want to blockify the PDF and do rhetorical classification of the blocks.It will output an openAccess based XML
 
-Command: {{{./cl_LA-PDFText blockifyClassify sampleData/plos/8_8 rules/plosbiology/epoch_7Jun_8.drl ~cartic/Desktop/screenshots/}}}
+Command: 
+{{{./cl_LA-PDFText blockifyClassify sampleData/plos/8_8 rules/plosbiology/epoch_7Jun_8.drl ~cartic/Desktop/screenshots/}}}
 
 
-Usage
+Arguments:
 Argument 1:blockifyClassify
 Argument 2: The directory path where the PDFs are located
 Argument 3: The path of the rule file for Drools 
