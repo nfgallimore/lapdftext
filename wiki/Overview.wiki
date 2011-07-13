@@ -131,48 +131,47 @@ salience 4
 end
 }}}
 
-From this example it is clear that LA-PDFText's code base contains a class that encapsulates features of chunk blocks detected in the block detection process. Here is a comprehensive list of ChunkFeatures you can use as antecedents of your drools rules:
+From this example it is clear that LA-PDFText's code base contains a class that encapsulates features of chunk blocks detected in the block detection process. Here is a comprehensive list of ChunkFeatures you can use as antecedents of your drools rules.
 
 
-  {{{int	getChunkTextLength() }}}
+  *  {{{int	getChunkTextLength() }}}
           returns the length of the text within a chunk 
-  {{{double	getDensity() }}}
+  *  {{{double	getDensity() }}}
           returns the word block density in a chunk block
-  {{{int	getHeightDifferenceBetweenChunkWordAndDocumentWord() }}}
+  *  {{{int	getHeightDifferenceBetweenChunkWordAndDocumentWord() }}}
           returns the difference between the most popular font size in the in the current chunk and the most popular font size in the document.
-  {{{java.lang.String	getlastClassification() }}}
+  *  {{{java.lang.String	getlastClassification() }}}
           returns the classification assigned to previous chunk block
-  {{{int	getMostPopularFontSize() }}}
+  *  {{{int	getMostPopularFontSize() }}}
           returns the most popular font size in the chunk block
-  {{{int	getPageNumber() }}}
+  *  {{{int	getPageNumber() }}}
           returns the page number where the block is located
-  {{{java.lang.String	getSection() }}}
+  *  {{{java.lang.String	getSection() }}}
           returns the section lable of chunk
-  {{{boolean	hasNeighboursOfType(java.lang.String type, int nsew) }}}
+  *  {{{boolean	hasNeighboursOfType(java.lang.String type, int nsew) }}}
           returns true if chunk block has neighbors of specific type within specified distance
-  {{{boolean	isAllCapitals() }}}
+  *  {{{boolean	isAllCapitals() }}}
           returns true if chunk block contains mostly capitalized text
-  {{{boolean	isAllignedLeft() }}}
+  *  {{{boolean	isAllignedLeft() }}}
           returns true if chunk block is left aligned
-  {{{boolean	isAllignedMiddle() }}}
+  *  {{{boolean	isAllignedMiddle() }}}
           returns true if chunk block is center aligned
-  {{{boolean	isAllignedRight() }}}
+  *  {{{boolean	isAllignedRight() }}}
           returns true if chunk block is right aligned
-  {{{boolean	isAllignedWithColumnBoundaries() }}}
+  *  {{{boolean	isAllignedWithColumnBoundaries() }}}
           returns true if the chunk block is aligned with column boundaries
-  {{{boolean	isColumnCentered() }}}
+  *  {{{boolean	isColumnCentered() }}}
           returns true if the chunk is a sinle column centered on the page else returns false
-  {{{boolean	isContainingFirstLineOfPage() }}}
+  *  {{{boolean	isContainingFirstLineOfPage() }}}
           returns true if chunk block contains the first line of a page's text
-  {{{boolean	isContainingLastLineOfPage() }}}
+  *  {{{boolean	isContainingLastLineOfPage() }}}
           returns true if chunk block contains the last line of a page's text
-  {{{boolean	isMatchingRegularExpression(java.lang.String regex) }}}
+  *  {{{boolean	isMatchingRegularExpression(java.lang.String regex) }}}
           returns true if the chunk block contains text that matches the input regex
-  {{{boolean	isMostPopularFontModifierBold() }}}
+  *  {{{boolean	isMostPopularFontModifierBold() }}}
           returns true if chunk block contains mostly bold face text
-  {{{boolean	isMostPopularFontModifierItalic() }}}
+  *  {{{boolean	isMostPopularFontModifierItalic() }}}
           returns true if chunk block contains mostly italicized text
-  {{{boolean	isOutlier() }}}
+  *  {{{boolean	isOutlier() }}}
           returns true if chunk block is an outlier or stray block
  
-
