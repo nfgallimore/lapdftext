@@ -79,15 +79,15 @@ Arguments:
 
 Here is a snippet from a rule file included in the software distribution:
 
-{{{#created on: Jul 30, 2010
+{{{
 package edu.isi.bmkeg.pdf.classification.rules
 
-#list any import classes here.
+
 
 import edu.isi.bmkeg.pdf.features.ChunkFeatures;
 import edu.isi.bmkeg.pdf.model.ChunkBlock;
 
-#declare any global variables here
+
 
 global ChunkBlock    chunk;
 
