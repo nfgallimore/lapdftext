@@ -82,22 +82,17 @@ Here is a snippet from a rule file included in the software distribution:
 {{{
 package edu.isi.bmkeg.pdf.classification.rules
 
-
-
 import edu.isi.bmkeg.pdf.features.ChunkFeatures;
 import edu.isi.bmkeg.pdf.model.ChunkBlock;
 
-
-
 global ChunkBlock    chunk;
-
 
 rule "Title"
 	activation-group "blockClassification"
 	salience 4
 	when
 		    ChunkFeatures(pageNumber==1)
-		     ChunkFeatures(mostPopularFontSize==20)
+	            ChunkFeatures(mostPopularFontSize==20)
 		  
 		    eval(chunk.getNumberOfLine()<=6)
 		    ChunkFeatures(allignedMiddle==true)
@@ -124,10 +119,6 @@ rule "Authors"
 		
 end
 
-
-
-
-
 rule "Header"
 activation-group "blockClassification"
 salience 4
@@ -139,3 +130,6 @@ salience 4
 		 chunk.setType(chunk.TYPE_HEADER);
 end
 }}}
+
+From this example it is clear that LA-PDFText's code base contains a class that encapsulates features of chunk blocks detected in the block detection process. 
+
