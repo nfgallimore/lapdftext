@@ -23,3 +23,25 @@ Once installed you can run LA-PDFText in 2 modes: (1) as an application with a U
 
 
 == Command Line Usage == 
+
+===Usage Guidelines===
+1. Blockifying PDF: Use this option if you want to blockify the PDF and output the blocks XML
+Usage
+Argument 1:blockify
+Argument 2: The directory path where the PDFs are located 
+Argument 3[Optional]: The directory path where output of blockify will be placed
+
+
+2. Blockifying PDF and reporting Features: Use this option if you want to blockify the PDF and output the blocks XML and generate a report file that serves as a guide in crafting a rule file for the sectionify step.
+Usage
+Argument 1:blockStatistics
+Argument 2: The directory path where the PDFs are located 
+Argument 3[Optional]: The directory path where output of blockify and the feature reports will be placed
+
+
+3. Blockifying and sectionifying PDF: Use this option if you want to blockify the PDF and do rhetorical classification of the blocks.It will output an openAccess based XML
+Usage
+Argument 1:blockifyClassify
+Argument 2: The directory path where the PDFs are located
+Argument 3: The path of the rule file for Drools 
+Argument 4[Optional]: The directory path where output of blockify and sectionify will be placed
