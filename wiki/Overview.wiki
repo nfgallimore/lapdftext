@@ -40,7 +40,7 @@ Command:
 
 
 Arguments:
-  * Argument 1:blockify
+  * Argument 1: blockify
   * Argument 2: The directory path where the PDFs are located 
   * Argument 3: The directory path where output of blockify will be placed
 
@@ -54,7 +54,7 @@ Command:
 {{{./cl_LA-PDFText blockStatistics sampleData/plos/8_8 ~cartic/Desktop/screenshots/}}}
 
 Arguments:
-  * Argument 1:blockStatistics
+  * Argument 1: blockStatistics
   * Argument 2: The directory path where the PDFs are located 
   * Argument 3: The directory path where output of blockify and the feature reports will be placed
 
@@ -68,7 +68,7 @@ Command:
 
 
 Arguments:
-  * Argument 1:blockifyClassify
+  * Argument 1: blockifyClassify
   * Argument 2: The directory path where the PDFs are located
   * Argument 3: The path of the rule file for Drools 
   * Argument 4: The directory path where output of blockify and sectionify will be placed
