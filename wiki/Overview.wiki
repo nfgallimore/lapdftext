@@ -77,7 +77,7 @@ Arguments:
 ===Writing rules for block classification ===
 
 
-Below is a snippet from a rule file included in the software distribution. The rules are in DROOLS syntax. [http://en.wikipedia.org/wiki/Drools]. The following snippet is taken from [http://code.google.com/p/lapdftext/downloads/detail?name=epoch_7Jun_8.drl&can=2&q=].
+Below is a snippet from a rule file included in the software distribution. The rules are in DROOLS syntax. [http://en.wikipedia.org/wiki/Drools]. The following snippet is taken from [http://code.google.com/p/lapdftext/downloads/detail?name=epoch_7Jun_8.drl&can=2&q=]. The rules in this file are meant specifically for a particular chronological range of documents with the PLoS biology journal. More specifically it is meant for all articles published in Volume 7 beginning in the month of June through to the end of Volume 8.
 
 {{{
 package edu.isi.bmkeg.pdf.classification.rules
