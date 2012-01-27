@@ -36,7 +36,7 @@ Along with the MacOSX and Linux installations of LA-PDFText you will find a scri
 Use this option if you want to blockify the PDF and output the blocks XML.
 
 Command: 
-{{{./cl_LA-PDFText blockify sampleData/plos/8_8 ~cartic/Desktop/screenshots/}}}
+{{{./LA-PDFText blockify sampleData/plos/8_8 ~cartic/Desktop/screenshots/}}}
 
 
 Arguments:
@@ -51,7 +51,7 @@ Arguments:
 Use this option if you want to blockify the PDF and output the blocks XML and generate a report file that serves as a guide in crafting a rule file for the sectionify step.
 
 Command: 
-{{{./cl_LA-PDFText blockStatistics sampleData/plos/8_8 ~cartic/Desktop/screenshots/}}}
+{{{./LA-PDFText blockStatistics sampleData/plos/8_8 ~cartic/Desktop/screenshots/}}}
 
 Arguments:
   * Argument 1: blockStatistics
@@ -64,7 +64,7 @@ Arguments:
 Use this option if you want to blockify the PDF and do rhetorical classification of the blocks.It will output an openAccess based XML
 
 Command: 
-{{{./cl_LA-PDFText blockifyClassify sampleData/plos/8_8 rules/plosbiology/epoch_7Jun_8.drl ~cartic/Desktop/screenshots/}}}
+{{{./LA-PDFText blockifyClassify sampleData/plos/8_8 rules/plosbiology/epoch_7Jun_8.drl ~cartic/Desktop/screenshots/}}}
 
 
 Arguments:
