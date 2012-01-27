@@ -15,11 +15,11 @@ The current version of all the installers will mark the {{{sampleData}}} as read
 = Usage =
 
 Once installed you can run LA-PDFText in 2 modes: (1) as an application with a UI (2) as a command-line tool. The table below summarizes these capabilities across the three platforms.
-||Version  ||1.3            ||     1.6      ||
-||         || UI || cmdLine || UI || cmdLine||
-||MacOSX   ||yes || yes     || no || yes    ||
-||WindowsXP||yes || no      || no || yes    || 
-||Linux    ||yes || yes     || no || yes    ||
+||Version  ||1.3         ||     1.6   ||
+||         || UI/cmdLine || UI/cmdLine||
+||MacOSX   ||yes/yes     || no/yes    ||
+||WindowsXP||yes/no      || no/yes    || 
+||Linux    ||yes/yes     || no/yes    ||
 
 
 == Command Line Usage == 
