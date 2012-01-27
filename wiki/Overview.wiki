@@ -3,7 +3,7 @@
 = Installation Instructions =
 
 The current version of LA-PDFText requires Java 1.6 in order to run and supports the following operating systems: 
-  # MacOSX Snow Leapoard 10.6.7
+  # MacOSX Snow Leopard 10.6.7
   # Windows XP
   # Linux
 
