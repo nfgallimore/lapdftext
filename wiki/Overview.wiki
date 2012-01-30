@@ -25,7 +25,7 @@ Once installed you can run LA-PDFText in 2 modes: (1) as an application with a U
 == Command Line Usage == 
 
 
-Along with the MacOSX and Linux installations of LA-PDFText you will find a script called {{{./cl_LA-PDFText}}} in the install directory. This will allow you to run LA-PDFText according to the usage guidelines below. 
+Along with the MacOSX and Linux installations of LA-PDFText you will find a script called {{{./LA-PDFText}}} in the install directory. This will allow you to run LA-PDFText according to the usage guidelines below. 
 
 
 
