@@ -1,4 +1,4 @@
-#summary Rules for
+#summary Developing and using rule files to classify text blocks in PDFs
 
 = Introduction =
 
