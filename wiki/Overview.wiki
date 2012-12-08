@@ -11,12 +11,12 @@ Mac and windows users can run their installers by simply double-clicking the ins
 
 Usage of the tool as a software application is currently based on a set of command-line functions. 
 
-* {{{blockify}}} - obtain XML-data for each block and no classification. 
-* {{{blockifyClassify}}} - obtain XML for each block and classification based on a rule file.
-* {{{blockStatistics}}} - obtain statistics for each block based on spatial characteristics.
-* {{{imagifyBlocks}}} - draw out the blocks into PNG images for debugging
-* {{{imagifySections}}} - draw out the blocks with labels based on sections for debugging
-* {{{extractFullText}}} - simply extract the text from the PDF based on a list of section headings (designated in the rule file)
+  * {{{blockify}}} - obtain XML-data for each block and no classification.  
+  * {{{blockifyClassify}}} - obtain XML for each block and classification based on a rule file.
+  * {{{blockStatistics}}} - obtain statistics for each block based on spatial characteristics.
+  * {{{imagifyBlocks}}} - draw out the blocks into PNG images for debugging
+  * {{{imagifySections}}} - draw out the blocks with labels based on sections for debugging
+  * {{{extractFullText}}} - simply extract the text from the PDF based on a list of section headings (designated in the rule file)
 
 Running each command without parameters brings up usage instructions. 
 
